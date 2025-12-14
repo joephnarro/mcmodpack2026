@@ -13,7 +13,7 @@ if /I not "%CONFIRM%"=="yes" goto :abort
 
 set "SRC=%~dp0mods"
 set "MC_DIR=%APPDATA%\.minecraft"
-set "DEST=%MC_DIR%\mods-test"
+set "DEST=%MC_DIR%\mods"
 
 if not exist "%SRC%\" (
   set "ERRMSG=Source folder not found: %SRC%"
